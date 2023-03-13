@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #000000;
+    ;
+}
+
+.fade-in {
+    animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+label {
+    font-size: 20px;
+    color: #000;
+}
+
+.image {
+    position: absolute;
+    bottom: -10%;
+    right: 30%;
+    height: 40rem;
+    object-fit: contain;
+}
+
+
+/* Full-width inputs */
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 16px 12px;
+    margin: 15px 0;
+    font-size: 16px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+
+/* Set a style for all buttons */
+
+button {
+    margin-top: 30px;
+    margin-bottom: 80px;
+    background-color: #000;
+    color: #f2f2f2;
+    padding: 15px 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+
+/* Add a hover effect for buttons */
+
+button:hover {
+    opacity: 0.8;
+}
+
+.logo {
+    float: left;
+    margin-top: 40px;
+}
+
+.logo a {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    padding-left: 150px;
+    padding-top: 22px;
+    text-decoration: none;
+}
+
+
+/* Add padding to containers */
+
+.container {
+    max-width: 350px;
+    padding-top: 130px;
+    margin-left: 1000px;
+    border-radius: 0;
+}
+
+.form-style label {
+    font-size: 1rem;
+}
